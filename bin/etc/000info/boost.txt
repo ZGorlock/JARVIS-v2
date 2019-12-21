@@ -1,0 +1,6 @@
+booststrap
+bjam --toolset=msvc --build-type=complete --build-dir=c:\build install
+move c:\Boost\lib to c:\boost_1_55_0\lib
+move c:\Boost\include\boost-1_55\boost to c:\boost_1_55_0\boost move and replace
+delete c:\build
+delete c:\Boost

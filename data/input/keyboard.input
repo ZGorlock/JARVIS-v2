@@ -1,0 +1,6 @@
+#ifndef DLA_I_KEYBOARD
+#define DLA_I_KEYBOARD
+if(isInput("keyboard", inputList_))
+  inputs_.push_back(new KeyboardInput);
+#endif
+

@@ -1,0 +1,30 @@
+
+7-Zip 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+Scanning
+
+Creating archive core.dmi
+
+Compressing  core\core.functions
+Compressing  core\core.module
+Compressing  core\core.settings
+Compressing  core\core_M.cpp
+Compressing  core\core_M.h
+Compressing  core\resource\file
+Compressing  core\resource\folder\tmp.tmp
+Compressing  core\resource\test.txt
+Compressing  core\source\folder1\file1.cpp
+Compressing  core\source\folder1\file1.h
+Compressing  core\variable\dbl.variable
+Compressing  core\variable\dbl_V.cpp
+Compressing  core\variable\dbl_V.h
+Compressing  core\variable\flt.variable
+Compressing  core\variable\flt_V.cpp
+Compressing  core\variable\flt_V.h
+Compressing  core\variable\int.variable
+Compressing  core\variable\int_V.cpp
+Compressing  core\variable\int_V.h
+Compressing  core\variable\num.variable
+Compressing  core\variable\num_V.cpp
+Compressing  core\variable\num_V.h
+
+Everything is Ok

@@ -1,0 +1,3 @@
+add variable declaration to source/resource/module/<module>.resource
+extern the variable in your <module>.h file
+initialize or load the variable in main() in <module>.cpp

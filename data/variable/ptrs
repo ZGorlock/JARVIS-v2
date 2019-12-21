@@ -1,0 +1,7 @@
+#include "bol.variable"
+#include "chr.variable"
+#include "dbl.variable"
+#include "flt.variable"
+#include "int.variable"
+#include "num.variable"
+#include "str.variable"

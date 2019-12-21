@@ -1,0 +1,24 @@
+﻿Build started 12/23/2014 9:06:28 PM.
+     1>Project "C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\DLA Tools\Testing\Testing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "speech recognition.cpp"
+         speech recognition.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sphelper.h(1319): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\DLA Tools\Release\Testing.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\DLA Tools\Release\Testing.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\DLA Tools\Release\Testing.lib" /MACHINE:X86 /SAFESEH "Release\assync keys.obj"
+         "Release\binary files.obj"
+         "Release\common dialog box.obj"
+         Release\consolecmd.obj
+         Release\operators.obj
+         "Release\speech recognition.obj"
+         "Release\time parser.obj"
+         "Release\vector vector.obj"
+         Generating code
+         Finished generating code
+         Testing.vcxproj -> C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\DLA Tools\Release\Testing.exe
+     1>Done Building Project "C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\DLA Tools\Testing\Testing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.44

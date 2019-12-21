@@ -1,0 +1,28 @@
+View\Other Windows\Property Manager\JARVIS\Debug\Microsoft.Cpp.Win32.user\Common Properties\VC++ Directories
+	Include Directories:
+		C:\boost_1_55_0
+		C:\Python33\include
+		C:\Python27\include
+	Library Directories
+		C:\boost_1_55_0\lib
+		C:\Python33\libs
+		C:\Python27\libs
+
+
+set Configuration to All Configurations
+Project\DLA Properties
+	Configuration Properties\General
+		Output Directory
+			$(SolutionDir)
+		Intermediate Directory
+			[empty]
+	Linker\Manifest File
+		Manifest File
+			$(IntDir)$(TargetName)$(TargetExt).manifest
+		UAC Execution Level
+			requireAdministrator (/level='requireAdministrator')
+	Manifest Tool\Input and Output
+		Embed Manifest
+			No
+		Output Manifest File
+			$(TargetPath).manifest

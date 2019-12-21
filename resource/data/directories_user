@@ -1,0 +1,16 @@
+backup
+backup/input
+backup/module
+backup/output
+data
+data/input
+data/module
+data/output
+data/setting
+data/setting/input
+data/setting/module
+data/setting/output
+resource
+resource/input
+resource/module
+resource/output

@@ -1,0 +1,5 @@
+CommandPtrs_["CORE::main"] = &CORE::main;
+CommandPtrs_["CORE::clear"] = &CORE::clear;
+CommandPtrs_["CORE::log"] = &CORE::log;
+CommandPtrs_["CORE::clearLog"] = &CORE::clearLog;
+CommandPtrs_["CORE::terminate"] = &CORE::terminate;

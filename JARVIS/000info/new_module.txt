@@ -1,0 +1,6 @@
+copy .module and .functions files to data/module
+add #include x.functions to data/modules/ptrs file
+add module name to data/modules file
+add .h and .cpp file to source/module
+add #include .h to source/resource/modules file
+recompile

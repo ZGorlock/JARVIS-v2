@@ -1,0 +1,26 @@
+load modules/inputs/outputs from user folder first, then data folder. This lets users modify and add/remove commands unique to their account without affecting other users on the computer, or by changing the files in data to modify all users.
+If the user has no modified or specific instances of the modules, etc in his user folder then the default of the module, etc will be loaded if it is enumerated in the module, etc file.
+A system should only use user specific modifications or shared modifications on modules, etc. If there are changes both in the specific and shared files, only the specific will be registered at startup.
+
+Backups of the user's data files will be created whenever a file is changed and then the user exits the program.
+Modle backups are saved in ..\backup\<module> based on if it is the user specific module or a shared module.
+
+All module/input/output that any user has is added to the source code but only modules/inputs/outputs enumerated within the users module, input, and output files will be loaded at startup.
+
+
+
+To Edit a Module:
+
+You have included a new module but you may not want to use all of the features or add new ones.
+You can use ModuleEditor to edit the .module file in data/module, this will affect all users on that computer.
+If you want to modify the module for your account only, you can copy the .module file to data/users/<user>/modules/<module>/ and modify it there.
+The system will automatically load a user specific module file instead of a shared one of the same name.
+
+To add new Commands to a Module:
+Add the functions to source/module/<module>.h and <module>.cpp and then
+Use ModuleEditor to add these commands and models for these functions
+This will automatically update the .functions file
+To make the changes shared edit the .module in data/modules
+To make the changes private edit the .module in data/users/<user>/modules
+
+*Its probably best not to edit modules though, just make your own module of your personal functions

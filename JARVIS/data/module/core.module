@@ -1,0 +1,110 @@
+CORE
+Contatins core functions.
+100.0
+
+
+
+
+
+
+
+1
+terminate
+Safely terminates the program
+void terminate()
+1
+CORE
+100.0
+
+1
+TERMINATE
+1
+0
+0
+
+x
+CLOSE
+1
+0
+0
+
+x
+END
+1
+0
+0
+
+x
+DIE
+1
+0
+0
+
+x
+POWER DOWN
+1
+0
+0
+
+x
+SHUT DOWN
+1
+0
+0
+
+x
+SHUTDOWN
+1
+0
+0
+
+
+
+30.0
+void
+0
+
+
+
+
+
+
+
+2
+date
+Returns the date.
+string date();
+20
+TIME
+80.0
+1
+WHAT IS THE DATE
+2
+2
+19
+2
+WHAT DATE IS IT
+2
+2
+19
+3
+DATE
+1
+0
+0
+4
+TELL ME THE DATE
+1
+0
+0
+0
+the date
+0
+
+
+
+
+
+
+
+0

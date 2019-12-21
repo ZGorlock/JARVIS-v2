@@ -1,0 +1,185 @@
+TO DO
+
+
+compile
+
+.module
+.functions
+_M.cpp
+_M.h
+.settings
+variables
+	.variable
+	_V.cpp
+	_V.h
+solutionfiles
+resourcefiles
+
+
+
+
+backup
+	X.resource files
+	Xresourcefiles only if you are author and final backup
+	solutionfiles
+
+
+install
+	copy .resource files
+	append to resources
+	make solutionfolders
+	move solutionfiles
+	write solutionfiles
+	write solutionsettings
+	copy resourcefiles
+	make resourcefolders
+	make datafolders
+
+	make resource folder
+
+	make data folder
+
+
+uninstall
+	Xdelete .resource files
+	Xremove from resources
+	remove solutionfiles and solutionproperties
+	if solutionfolders are empty, remove them
+	remove resource files and folders
+	remove resource folder
+
+	save data folder
+	
+
+
+
+
+resourceFiles
+	if it ends with a / it is a folder
+	copy to resource/ when building
+	when removed, delete, dont incude in backup
+	if you are the author and deleted, include in final backup
+	must be stored in resource/module/<module>/
+        init in .resource
+        load in main() if you have to
+        free in main()
+
+dataFiles
+	only list
+	when uninstalled do nothing to data files
+	must be stored in data/users/<user>/resource/module/<module>/
+	created in main(), save as soon as created
+	save in 
+	init in .resource
+        load in main()
+	save in main()
+        free in main()
+
+
+solutionFolders
+	list of folders to add to solution
+	dont add if exists
+	when adding, generate guid
+	remove at uninstall
+solutionFiles
+	list of source files to add to solution
+	not duplicated in resourceFiles
+	copied to source/ when building
+	when created add line to solutionproperties
+	when alphabetized, also switch properties
+	when removed, remove properties
+	dont copy if exists
+	remove at uninstall
+solutionProperties
+	listing at beginning of module file
+	listed the same way as commands
+	module .cpp first, then .h then solution files listed in solutionFiles
+	remove at uninstall
+
+
+
+enter solutionfolders even if you dont need them
+install from backup
+install from dmi
+
+
+fix module installation (unzip/batch to move)
+	zip named as .dmi
+	open with ModuleInstaller
+	copy to DLA\temp\
+	unzip
+	create folders
+		data/module/<name>
+		resource/module/<name>
+	copy common files
+		.cpp
+		.h
+		.setting
+		.module
+		.functions
+	edit project files to
+		add optional folders (GUID)
+		add .cpp and .h, and other list of files (optional properties for each) (.vcxproj and .filters)
+		add custom settings
+	read .module to move uncommon files
+	remove DLA\temp\<name>\
+uninstallation
+	remove folders
+		data/module/<name>
+		resource/module/<name>
+	remove common files
+		.cpp
+		.h
+		.setting
+		.module
+		.functions
+		.resource
+		.loadresource
+	edit project files to
+		remove .cpp and .h
+		remove custom settings
+	read .module to remove uncommon files
+
+add to user
+	create folders
+		data/users/<user>/resource/module/<name>
+if not your module, remove resources at remove module
+
+
+remove variable/cpp/h files from sln when removed
+add compilation to backup
+
+
+
+
+add function files for user defined modules, add after (replaces)
+
+add standby
+turn modules, io on/off with commands
+create yes/no prompt
+
+change name of files to include author
+
+music module
+	load library (create database)
+	playlists (create, add, remove)
+	play music
+	download tags/lyrics/cover (MusicBrainz API)
+
+http://www.free-tv-video-online.me/internet/its_always_sunny_in_philadelphia/season_9.html#e4
+http://www.free-tv-video-online.me/internet/natural_born_sellers_%28us%29/
+
+input  editor/instaler
+output editor/installer
+
+add modules/inputs/outputs to user easier
+edit settings easier
+edit contacts/info/logins
+
+plan install/uninstall system
+make clean file backup/repair system
+make help files
+readme for install folder
+
+better the admin system
+add guid to module/i/o from name and author

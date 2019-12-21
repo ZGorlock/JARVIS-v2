@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{30E91AF9-2D81-40F3-BBC8-D30A46A47BD6}</ProjectGuid>
+    <RootNamespace>DLA</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>$(SolutionDir)resource\intermediate\$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir)source\include;$(ProjectDir)source\include\Debug;$(ProjectDir)source\header;$(ProjectDir)source\resource;$(IncludePath)</IncludePath>
+    <EmbedManifest>false</EmbedManifest>
+    <GenerateManifest>true</GenerateManifest>
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(ProjectDir)tools;$(ExecutablePath)</ExecutablePath>
+    <LibraryPath>$(ProjectDir)lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>
+    </IntDir>
+    <GenerateManifest>true</GenerateManifest>
+    <EmbedManifest>false</EmbedManifest>
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(ProjectDir)tools;$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+    <IncludePath>$(ProjectDir)source\include;$(ProjectDir)source\include\Release;$(ProjectDir)source\header;$(ProjectDir)source\resource;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WXUSINGDLL;wxMSVC_VERSION_AUTO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged>false</CompileAsManaged>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ManifestFile>$(IntDir)$(TargetName)$(TargetExt).manifest</ManifestFile>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <AdditionalDependencies>cryptlibd.lib;tre.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WXUSINGDLL;wxMSVC_VERSION_AUTO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged>false</CompileAsManaged>
+      <SDLCheck>false</SDLCheck>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <ManifestFile>$(IntDir)$(TargetName)$(TargetExt).manifest</ManifestFile>
+      <AdditionalDependencies>cryptlib.lib;tre.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+      <OutputManifestFile>$(TargetPath).manifest</OutputManifestFile>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\command.cpp" />
+    <ClCompile Include="source\contact.cpp" />
+    <ClCompile Include="source\include\Double-Metaphone\double_metaphone.cpp" />
+    <ClCompile Include="source\input\speech_I.cpp" />
+    <ClCompile Include="source\output.cpp" />
+    <ClCompile Include="source\output\console_O.cpp" />
+    <ClCompile Include="source\output\log_O.cpp" />
+    <ClCompile Include="source\output\speech_O.cpp" />
+    <ClCompile Include="source\output\speed_O.cpp" />
+    <ClCompile Include="source\resource\common.cpp" />
+    <ClCompile Include="source\resource\crypto.cpp" />
+    <ClCompile Include="source\input.cpp" />
+    <ClCompile Include="source\input\keyboard_I.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\module.cpp" />
+    <ClCompile Include="source\resource\filesystem.cpp" />
+    <ClCompile Include="source\resource\stdafx.cpp" />
+    <ClCompile Include="source\resource\testing.cpp" />
+    <ClCompile Include="source\resource\timer.cpp" />
+    <ClCompile Include="source\settings.cpp" />
+    <ClCompile Include="source\module\time_M.cpp" />
+    <ClCompile Include="source\module\core_M.cpp" />
+    <ClCompile Include="source\user.cpp" />
+    <ClCompile Include="source\variable.cpp" />
+    <ClCompile Include="source\variable\bol_V.cpp" />
+    <ClCompile Include="source\variable\chr_V.cpp" />
+    <ClCompile Include="source\variable\dbl_V.cpp" />
+    <ClCompile Include="source\variable\flt_V.cpp" />
+    <ClCompile Include="source\variable\int_V.cpp" />
+    <ClCompile Include="source\variable\num_V.cpp" />
+    <ClCompile Include="source\variable\str_V.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\header\command.h" />
+    <ClInclude Include="source\header\contact.h" />
+    <ClInclude Include="source\header\main.h" />
+    <ClInclude Include="source\header\output.h" />
+    <ClInclude Include="source\header\user.h" />
+    <ClInclude Include="source\header\variable.h" />
+    <ClInclude Include="source\include\Double-Metaphone\double_metaphone.h" />
+    <ClInclude Include="source\input\speech_I.h" />
+    <ClInclude Include="source\output\console_O.h" />
+    <ClInclude Include="source\output\log_O.h" />
+    <ClInclude Include="source\output\speech_O.h" />
+    <ClInclude Include="source\output\speed_O.h" />
+    <ClInclude Include="source\resource\crypto.h" />
+    <ClInclude Include="source\header\input.h" />
+    <ClInclude Include="source\input\keyboard_I.h" />
+    <ClInclude Include="source\header\module.h" />
+    <ClInclude Include="source\header\settings.h" />
+    <ClInclude Include="source\module\time_M.h" />
+    <ClInclude Include="source\resource\common.h" />
+    <ClInclude Include="source\resource\const.h" />
+    <ClInclude Include="source\resource\filesystem.h" />
+    <ClInclude Include="source\resource\resources.h" />
+    <ClInclude Include="source\module\core_M.h" />
+    <ClInclude Include="source\resource\stdafx.h" />
+    <ClInclude Include="source\resource\testing.h" />
+    <ClInclude Include="source\resource\timer.h" />
+    <ClInclude Include="source\variable\bol_V.h" />
+    <ClInclude Include="source\variable\chr_V.h" />
+    <ClInclude Include="source\variable\dbl_V.h" />
+    <ClInclude Include="source\variable\flt_V.h" />
+    <ClInclude Include="source\variable\int_V.h" />
+    <ClInclude Include="source\variable\num_V.h" />
+    <ClInclude Include="source\variable\str_V.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

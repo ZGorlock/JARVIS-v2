@@ -1,0 +1,35 @@
+﻿  Skipping... (no relevant changes detected)
+  str_V.cpp
+  num_V.cpp
+  int_V.cpp
+  flt_V.cpp
+  dbl_V.cpp
+  chr_V.cpp
+  bol_V.cpp
+  variable.cpp
+  user.cpp
+  settings.cpp
+  timer.cpp
+  testing.cpp
+  stdafx.cpp
+  filesystem.cpp
+  crypto.cpp
+  common.cpp
+  speed_O.cpp
+  speech_O.cpp
+  log_O.cpp
+  console_O.cpp
+  output.cpp
+  time_M.cpp
+  core_M.cpp
+  module.cpp
+  main.cpp
+  speech_I.cpp
+  keyboard_I.cpp
+  input.cpp
+  double_metaphone.cpp
+  contact.cpp
+  command.cpp
+  Generating code
+  Finished generating code
+  DLA.vcxproj -> C:\Users\ZGorlock\Coding\C++\Visual Studios Workplace\DLA\DLA.exe

@@ -1,0 +1,941 @@
+CORE
+fc81b159-37a3-4dfe-ae43-8624880ad0f9
+Contatins core functions.
+100
+
+
+DBL,FLT,INT,NUM
+file,folder/,folder/tmp.tmp,test.txt
+data.txt,tmpdata.txt
+
+
+1
+0
+2
+0
+0
+1
+add
+adds two numbers
+string add();
+21
+CORE
+100
+80
+1
+SUM %NUM% AND %NUM%
+100
+2
+1
+0
+2
+SUM OF %NUM% AND %NUM%
+100
+2
+1
+0
+3
+WHAT IS %NUM% PLUS %NUM%
+100
+2
+1
+0
+4
+WHAT IS THE SUM OF %NUM% AND %NUM%
+100
+2
+1
+0
+5
+WHATS %NUM% PLUS %NUM%
+100
+2
+1
+0
+0
+the sum of the two numbers
+0
+2
+clear
+Clears the output window.
+string clear();
+20
+CORE
+100
+80
+1
+CLEAR
+100
+1
+0
+0
+2
+CLEAR SCREEN
+100
+1
+0
+0
+3
+CLEAR THE SCREEN
+100
+1
+0
+0
+4
+CLS
+100
+1
+0
+0
+0
+void
+10
+3
+clearLog
+Clears the log.
+string clearLog();
+20
+CORE
+100
+50
+1
+CLEAR LOG
+100
+1
+0
+0
+2
+CLEAR THE LOG
+100
+1
+0
+0
+3
+EMPTY LOG
+100
+1
+0
+0
+4
+EMPTY THE LOG
+100
+1
+0
+0
+5
+FREE LOG
+100
+1
+0
+0
+6
+FREE THE LOG
+100
+1
+0
+0
+0
+'clear the log'
+75
+4
+countCommands
+Returns the number commands.
+string countCommands();
+20
+CORE
+100
+20
+1
+COUNT COMMANDS
+100
+1
+0
+0
+2
+HOW MANY COMMANDS
+100
+2
+2
+10
+3
+HOW MANY COMMANDS ARE INSTALLED
+100
+2
+2
+10
+4
+HOW MANY COMMANDS DO I HAVE
+100
+2
+2
+10
+0
+the command count
+0
+5
+countInputs
+Returns the number of inputs.
+string countInputs();
+20
+CORE
+100
+20
+1
+COUNT INPUTS
+100
+1
+0
+0
+2
+HOW MANY INPUTS
+100
+2
+2
+10
+3
+HOW MANY INPUTS ARE INSTALLED
+100
+2
+2
+10
+4
+HOW MANY INPUTS DO I HAVE
+100
+2
+2
+10
+0
+the input count
+0
+6
+countModules
+Returns the number modules.
+string countModules();
+20
+CORE
+100
+20
+1
+COUNT MODULES
+100
+1
+0
+0
+2
+HOW MANY MODULES
+100
+2
+2
+10
+3
+HOW MANY MODULES ARE INSTALLED
+100
+2
+2
+10
+4
+HOW MANY MODULES DO I HAVE
+100
+2
+2
+10
+0
+the modules count
+0
+7
+countOutputs
+Returns the number of outputs.
+string countOutputs();
+20
+CORE
+100
+20
+1
+COUNT OUTPUTS
+100
+1
+0
+0
+2
+HOW MANY OUTPUTS
+100
+2
+2
+10
+3
+HOW MANY OUTPUTS ARE INSTALLED
+100
+2
+2
+10
+4
+HOW MANY OUTPUTS DO I HAVE
+100
+2
+2
+10
+0
+the output count
+0
+8
+enumCommands
+Prints the commands to the screen.
+string enumCommands();
+20
+CORE
+100
+0
+1
+DUMP COMMANDS
+100
+1
+0
+0
+2
+ENUMERATE COMMANDS
+100
+1
+0
+0
+3
+LIST COMMANDS
+100
+1
+0
+0
+4
+LIST COMMANDS ON SCREEN
+100
+1
+0
+0
+5
+PRINT COMMAND LIST
+100
+1
+0
+0
+6
+PRINT COMMAND MANIFEST
+100
+1
+0
+0
+7
+PRINT COMMANDS TO SCREEN
+100
+1
+0
+0
+8
+WHAT COMMANDS ARE INSTALLED
+100
+2
+2
+19
+9
+WHAT COMMANDS ARE INSTALLED
+100
+2
+2
+19
+10
+WHAT COMMANDS ARE LOADED
+100
+2
+2
+19
+11
+WHAT COMMANDS DO I HAVE
+100
+2
+2
+19
+0
+the commands
+30
+9
+enumInputs
+Prints the inputs to the screen.
+string enumInputs();
+20
+CORE
+100
+0
+1
+DUMP INPUTS
+100
+1
+0
+0
+2
+ENUMERATE INPUTS
+100
+1
+0
+0
+3
+LIST INPUTS
+100
+1
+0
+0
+4
+LIST INPUTS ON SCREEN
+100
+1
+0
+0
+5
+PRINT INPUT LIST
+100
+1
+0
+0
+6
+PRINT INPUT MANIFEST
+100
+1
+0
+0
+7
+PRINT INPUTS TO SCREEN
+100
+1
+0
+0
+8
+WHAT INPUTS ARE INSTALLED
+100
+2
+2
+19
+9
+WHAT INPUTS ARE INSTALLED
+100
+2
+2
+19
+10
+WHAT INPUTS ARE LOADED
+100
+2
+2
+19
+11
+WHAT INPUTS DO I HAVE
+100
+2
+2
+19
+0
+the inputs
+30
+10
+enumModules
+Prints the modules to the screen.
+string enumModules();
+20
+CORE
+100
+0
+1
+DUMP MODULES
+100
+1
+0
+0
+2
+ENUMERATE MODULES
+100
+1
+0
+0
+3
+LIST MODULES
+100
+1
+0
+0
+4
+LIST MODULES ON SCREEN
+100
+1
+0
+0
+5
+PRINT MODULE LIST
+100
+1
+0
+0
+6
+PRINT MODULE MANIFEST
+100
+1
+0
+0
+7
+PRINT MODULES TO SCREEN
+100
+1
+0
+0
+8
+WHAT MODULES ARE INSTALLED
+100
+2
+2
+19
+9
+WHAT MODULES ARE INSTALLED
+100
+2
+2
+19
+10
+WHAT MODULES ARE LOADED
+100
+2
+2
+19
+11
+WHAT MODULES DO I HAVE
+100
+2
+2
+19
+0
+the modules
+30
+11
+enumOutputs
+Prints the outputs to the screen.
+string enumOutputs();
+20
+CORE
+100
+0
+1
+DUMP OUTPUTS
+100
+1
+0
+0
+2
+ENUMERATE OUTPUTS
+100
+1
+0
+0
+3
+LIST OUTPUTS
+100
+1
+0
+0
+4
+LIST OUTPUTS ON SCREEN
+100
+1
+0
+0
+5
+PRINT OUTPUT LIST
+100
+1
+0
+0
+6
+PRINT OUTPUT MANIFEST
+100
+1
+0
+0
+7
+PRINT OUTPUTS TO SCREEN
+100
+1
+0
+0
+8
+WHAT OUTPUTS ARE INSTALLED
+100
+2
+2
+19
+9
+WHAT OUTPUTS ARE INSTALLED
+100
+2
+2
+19
+10
+WHAT OUTPUTS ARE LOADED
+100
+2
+2
+19
+11
+WHAT OUTPUTS DO I HAVE
+100
+2
+2
+19
+0
+the outputs
+30
+12
+enumSettings
+Prints the settings to the screen.
+string enumSettings();
+20
+CORE
+100
+0
+1
+DUMP SETTINGS
+100
+1
+0
+0
+2
+DUMP SETTINGS TO SCREEN
+100
+1
+0
+0
+3
+ENUMERATE SETTINGS
+100
+1
+0
+0
+4
+LIST SETTINGS
+100
+1
+0
+0
+5
+LIST THE SETTINGS
+100
+1
+0
+0
+6
+SHOW SETTINGS
+100
+1
+0
+0
+7
+SHOW THE SETTINGS
+100
+1
+0
+0
+0
+the settings
+30
+13
+hide
+Hides the console.
+string hide();
+20
+CORE
+100
+50
+1
+HIDE
+100
+1
+0
+0
+2
+HIDE CONSOLE
+100
+1
+0
+0
+3
+HIDE CONSOLE WINDOW
+100
+1
+0
+0
+4
+HIDE SCREEN
+100
+1
+0
+0
+5
+HIDE THE CONSOLE
+100
+1
+0
+0
+6
+HIDE THE CONSOLE WINDOW
+100
+1
+0
+0
+7
+HIDE THE SCREEN
+100
+1
+0
+0
+8
+HIDE YOURSELF
+100
+1
+0
+0
+9
+REMOVE CONSOLE FROM SCREEN
+80
+1
+0
+0
+0
+'hiding the console'
+20
+14
+log
+Opens the log in a text editor.
+string log();
+20
+CORE
+100
+50
+1
+LOG
+100
+1
+0
+0
+2
+OPEN LOG
+100
+1
+0
+0
+3
+OPEN THE LOG
+100
+1
+0
+0
+4
+SHOW LOG
+100
+1
+0
+0
+5
+SHOW THE LOG
+100
+1
+0
+0
+0
+'opening the log'
+0
+15
+resetSettings
+Resets the settings to default.
+string resetSettings();
+20
+CORE
+100
+0
+1
+DEFAULT SETTINGS
+0
+1
+0
+0
+2
+RESET MY SETTINGS
+0
+1
+0
+0
+3
+RESET SETTINGS
+0
+1
+0
+0
+4
+RESET THE SETTINGS
+0
+1
+0
+0
+5
+SET DEFAULT SETTINGS
+0
+1
+0
+0
+6
+SET SETTINGS TO DEFAULT
+0
+1
+0
+0
+0
+'settings reset to default'
+100
+16
+revertSettings
+Recovers the settings from the file.
+string revertSettings();
+20
+CORE
+100
+0
+1
+RECOVER SETTINGS
+0
+1
+0
+0
+2
+RECOVER THE SETTINGS
+0
+1
+0
+0
+3
+RELOAD SETTINGS
+0
+1
+0
+0
+4
+RELOAD THE SETTINGS
+0
+1
+0
+0
+5
+REVERT SETTINGS
+0
+1
+0
+0
+6
+REVERT THE SETTINGS
+0
+1
+0
+0
+0
+'reloading settings'
+70
+17
+show
+Unhides the console.
+string show();
+20
+CORE
+100
+50
+1
+SHOW
+100
+1
+0
+0
+2
+SHOW CONSOLE
+100
+1
+0
+0
+3
+SHOW CONSOLE WINDOW
+100
+1
+0
+0
+4
+SHOW THE CONSOLE
+100
+1
+0
+0
+5
+SHOW THE CONSOLE WINDOW
+100
+1
+0
+0
+6
+SHOW THE WINDOW
+100
+1
+0
+0
+7
+SHOW WINDOW
+100
+1
+0
+0
+8
+SHOW YOURSELF
+80
+1
+0
+0
+0
+'showing the console'
+20
+18
+terminate
+Safely terminates the program.
+string terminate();
+20
+CORE
+100
+100
+1
+CLOSE
+100
+1
+0
+0
+2
+DIE
+100
+1
+0
+0
+3
+END
+100
+1
+0
+0
+4
+EXIT
+100
+1
+0
+0
+5
+TERMINATE
+100
+1
+0
+0
+0
+void
+80
+0

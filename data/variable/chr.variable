@@ -1,0 +1,3 @@
+if (!hasVariable("%CHR%")) {
+  VariablePtrs_["%CHR%"] = &isCHR;
+}

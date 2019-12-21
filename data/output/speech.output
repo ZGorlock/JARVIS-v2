@@ -1,0 +1,6 @@
+#ifndef DLA_O_SPEECH
+#define DLA_O_SPEECH
+if (isOutput("speech", outputList_))
+  outputs_.push_back(new SpeechOutput);
+#endif
+

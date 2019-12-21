@@ -1,0 +1,13 @@
+copy .module and .functions files to data/module
+add #include x.functions to data/modules/ptrs file
+add module name to data/modules file
+add .h and .cpp file to source/module/
+add #include .h to source/resource/modules file
+for each new variable
+	copy _V.h and _V.cpp to source/variable/
+	add to source/resource/variable
+automatically build .varible file in data/variable/
+add .variable to data/variable/ptrs
+copy .settings file to data/setting/module/
+if no .setting file build default one
+recompile

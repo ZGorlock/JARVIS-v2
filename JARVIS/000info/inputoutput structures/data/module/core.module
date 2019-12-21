@@ -1,0 +1,145 @@
+CORE
+Contatins core functions.
+100.0
+
+1
+clear
+Clears the output window.
+string clear();
+20
+CORE
+80.0
+1
+CLEAR
+1
+0
+0
+2
+CLS
+1
+0
+0
+3
+CLEAR SCREEN
+1
+0
+0
+4
+CLEAR THE SCREEN
+1
+0
+0
+0
+void
+10.0
+2
+log
+Opens the log in a text editor.
+string log();
+20
+CORE
+50.0
+1
+LOG
+1
+0
+0
+2
+OPEN LOG
+1
+0
+0
+3
+SHOW LOG
+1
+0
+0
+4
+OPEN THE LOG
+1
+0
+0
+5
+SHOW THE LOG
+1
+0
+0
+0
+'opening the log'
+0.0
+3
+clearLog
+Clears the log.
+string clearLog();
+20
+CORE
+50.0
+1
+CLEAR LOG
+1
+0
+0
+2
+EMPTY LOG
+1
+0
+0
+3
+FREE LOG
+1
+0
+0
+4
+CLEAR THE LOG
+1
+0
+0
+5
+EMPTY THE LOG
+1
+0
+0
+6
+FREE THE LOG
+1
+0
+0
+0
+'clear the log'
+75.0
+4
+terminate
+Safely terminates the program.
+string terminate();
+1
+CORE
+100.0
+1
+TERMINATE
+1
+0
+0
+2
+EXIT
+1
+0
+0
+3
+CLOSE
+1
+0
+0
+4
+END
+1
+0
+0
+5
+DIE
+1
+0
+0
+0
+void
+50.0
+0

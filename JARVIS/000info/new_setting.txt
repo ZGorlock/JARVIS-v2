@@ -1,0 +1,4 @@
+add new line in settings.ini
+add variable to class Settings
+add default value to settings()
+add new line to load(), save(), reset(), and dump()

@@ -1,0 +1,124 @@
+#defines information for a user
+#no spaces, just inserted for visility
+#no comments
+
+
+
+
+					#prefix
+Zachary					#first name
+					#middle name
+W					#middle initial
+Gill					#last name
+					#suffix
+Zack					#nickname
+
+
+
+
+
+JARVIS					#DLA name
+1					#DLA gender
+
+
+
+
+
+ZGorlock				#username
+00000000-0000-0000-0000-000000000000	#id
+
+
+
+
+
+1					#gender
+01-01-1901				#birthday
+
+
+
+
+
+
+
+1					#first phone number
+
+2					#type (a cell phone)
+1					#country code
+111					#area code
+1234567					#number
+					#ext
+
+2					#second phone number
+
+1					#type (a home phone)
+1					#country code
+111					#area code
+1234567					#number
+					#ext
+
+0					#no more phones
+
+
+
+
+
+
+
+1					#first email
+
+1					#type (home email)
+Something@gmail.com			#address
+
+
+2					#second email
+
+2					#type (work email)
+work@work.com				#address
+
+
+0					#no more emails
+
+
+
+
+
+
+
+
+1					#first address
+
+1					#type (home)
+1313 Dead End Drive			#street
+San Francisco				#city
+California				#state
+11111					#zip
+					#appt
+					#po box
+
+
+0					#no more addresses
+
+
+
+
+
+
+
+
+
+
+0					#no more accounts
+
+
+
+
+
+
+
+
+
+
+
+
+
+#end of infofile

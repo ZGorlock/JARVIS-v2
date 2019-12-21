@@ -1,0 +1,3 @@
+CommandPtrs_["TIME::main"] = &TIME::main;
+CommandPtrs_["TIME::time"] = &TIME::time;
+CommandPtrs_["TIME::date"] = &TIME::date;

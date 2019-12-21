@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\command.cpp" />
+    <ClCompile Include="source\output.cpp" />
+    <ClCompile Include="source\input.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\module.cpp" />
+    <ClCompile Include="source\settings.cpp" />
+    <ClCompile Include="source\resource\common.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\user.cpp" />
+    <ClCompile Include="source\contact.cpp" />
+    <ClCompile Include="source\resource\testing.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\crypto.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\filesystem.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\variable.cpp" />
+    <ClCompile Include="source\module\core_M.cpp">
+      <Filter>module</Filter>
+    </ClCompile>
+    <ClCompile Include="source\input\keyboard_I.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\module\time_M.cpp">
+      <Filter>module</Filter>
+    </ClCompile>
+    <ClCompile Include="source\output\console_O.cpp">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="source\output\log_O.cpp">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="source\output\speech_O.cpp">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="source\variable\int_V.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\output\speed_O.cpp">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="source\variable\dbl_V.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\timer.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\variable\flt_V.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\variable\num_V.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\variable\bol_V.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\variable\chr_V.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\variable\str_V.cpp">
+      <Filter>variable</Filter>
+    </ClCompile>
+    <ClCompile Include="source\include\Double-Metaphone\double_metaphone.cpp">
+      <Filter>include\Double-Metaphone</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resource\stdafx.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\input\speech_I.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\header\command.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource\common.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource\const.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\input.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\module.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\settings.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\output.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource\resources.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\user.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource\crypto.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\contact.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource\testing.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource\filesystem.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\variable.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\module\core_M.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="source\input\keyboard_I.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\module\time_M.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="source\output\console_O.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="source\output\log_O.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="source\output\speech_O.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="source\variable\int_V.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\output\speed_O.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="source\variable\dbl_V.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource\timer.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\variable\flt_V.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\variable\num_V.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\variable\bol_V.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\variable\chr_V.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\variable\str_V.h">
+      <Filter>variable</Filter>
+    </ClInclude>
+    <ClInclude Include="source\include\Double-Metaphone\double_metaphone.h">
+      <Filter>include\Double-Metaphone</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource\stdafx.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\input\speech_I.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\header\main.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{51702c06-7cb1-4857-bc56-df780928fdae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{d27e790b-defe-46fd-a23e-ac759247acdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{09b4159d-ef05-42d2-84da-8957d2ab3b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module">
+      <UniqueIdentifier>{6e008312-3a90-483b-8e1f-cd73e5a792a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="output">
+      <UniqueIdentifier>{b93abf52-ef9c-4c78-ab03-3d9db81cc648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variable">
+      <UniqueIdentifier>{10710dbc-ae00-494b-a550-a672e56aef47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{c7a0e624-c4f3-4bf1-9c64-391c6dc555d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Double-Metaphone">
+      <UniqueIdentifier>{ebd3d50d-839c-4b77-a8c9-2d995f214162}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

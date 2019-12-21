@@ -1,0 +1,6 @@
+#ifndef DLA_O_CONSOLE
+#define DLA_O_CONSOLE
+if (isOutput("console", outputList_))
+  outputs_.push_back(new ConsoleOutput);
+#endif
+

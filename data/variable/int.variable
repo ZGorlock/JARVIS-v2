@@ -1,0 +1,3 @@
+if (!hasVariable("%INT%")) {
+  VariablePtrs_["%INT%"] = &isINT;
+}

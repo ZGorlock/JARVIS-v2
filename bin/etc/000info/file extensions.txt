@@ -1,0 +1,3 @@
+.dmi	DLA Module Installer Package	Opens with ModuleInstaller
+.dii	DLA Input Installer Package	Opens with InputInstaller
+.doi	DLA Output Installer Package	Opens with OutputInstaler

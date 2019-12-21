@@ -1,0 +1,12 @@
+CommandPtrs_["TIME::main"] = &TIME::main;
+CommandPtrs_["TIME::time"] = &TIME::time;
+CommandPtrs_["TIME::time24"] = &TIME::time24;
+CommandPtrs_["TIME::date"] = &TIME::date;
+CommandPtrs_["TIME::today"] = &TIME::today;
+CommandPtrs_["TIME::timestamp"] = &TIME::timestamp;
+CommandPtrs_["TIME::datestamp"] = &TIME::datestamp;
+CommandPtrs_["TIME::clockstamp"] = &TIME::clockstamp;
+CommandPtrs_["TIME::local"] = &TIME::local;
+CommandPtrs_["TIME::universal"] = &TIME::universal;
+CommandPtrs_["TIME::accuracyOn"] = &TIME::accuracyOn;
+CommandPtrs_["TIME::accuracyOff"] = &TIME::accuracyOff;

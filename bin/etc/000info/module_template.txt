@@ -1,0 +1,137 @@
+#defines information for a module
+#no spaces, just inserted for visility
+#no comments
+
+
+TIME					#module's name
+00000000-0000-0000-0000-000000000000	#author id
+Contatins basic time functions.		#description
+80.0					#priority
+TIME,DATE,LONG,WHEN                     #comma seperated list of keywords (no use as of now)
+STD,CORE				#comma seperated list of dependency modules
+INT,DBL					#comma seperated list of variables to be included
+tmp.txt,res.log,folder/			#comma seperated list of resource files located in resource/module/<name>
+data.txt				#comma seperated list of data files located in data/user/<user>/resource/module/<name>
+include/resource			#comma seperated list of folders to add to solution
+include/resource/s.cpp,include/resource/s.h	#comma seperated list of files to add to solution
+
+
+
+
+
+
+1																#Solution Properties #1 (time.cpp)
+4																#number of properties for #1
+<MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</MinimalRebuild>				#property
+<BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">StackFrameRuntimeCheck</BasicRuntimeChecks>	#property
+<MinimalRebuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</MinimalRebuild>				#property
+<BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">StackFrameRuntimeCheck</BasicRuntimeChecks>	#property
+
+2					#Solution Properties #2 (time.h)
+0					#number of properties in #2
+
+3					#Solution Properties #3 (s.cpp (solution files in order they appear above))
+0					#number of properties in #3
+
+4					#Solution Properties #4 (s.h)
+0					#number of properties in #2
+
+0					#end of solution properties
+
+
+
+
+
+
+
+
+1					#COMMAND #1
+time					#name of command
+Returns the time.			#description of command
+string time();				#command definition
+20					#command return type
+TIME					#module it is in
+80.0					#priority of command in module
+
+
+1					#TEMPLATE #1
+WHAT TIME IS IT				#match string
+2					#command type
+2					#question type
+19					#question word
+
+2					#TEMPLATE #2
+WHAT IS THE TIME			#match string
+2					#command type
+2					#question type
+19					#question word
+
+3					#TEMPLATE #3
+TIME					#match string
+1					#command type
+0					#question type
+0					#question word
+
+4					#TEMPLATE #4
+TELL ME THE TIME			#match word
+1					#command type
+0					#question type
+0					#question word
+
+0					#TEMPLATE #0 (End of templates)
+
+
+the time				#output
+0.0					#risk
+
+
+
+
+
+
+2					#COMMAND #2
+date					#name of command
+Returns the date.			#description of command
+string date();				#command definition
+20					#command return type
+TIME					#module it is in
+80.0					#priority of command in module
+
+
+1					#TEMPLATE #1
+WHAT IS THE DATE			#match string
+2					#command type
+2					#question type
+19					#question word
+
+2					#TEMPLATE #2
+WHAT DATE IS IT				#match string
+2					#command type
+2					#question type
+19					#question word
+
+3					#TEMPLATE #3
+DATE					#match string
+1					#command type
+0					#question type
+0					#question word
+
+4					#TEMPLATE #4
+TELL ME THE DATE			#match word
+1					#command type
+0					#question type
+0					#question word
+
+0					#TEMPLATE #0 (End of templates)
+
+
+the date				#output
+0.0					#risk
+
+
+
+
+
+
+0					#COMMAND #0 (End of commands)
+#end of module

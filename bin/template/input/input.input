@@ -1,0 +1,6 @@
+#ifndef DLA_I_INPUT
+#define DLA_I_INPUT
+if(isInput("input", inputList_))
+  inputs_.push_back(new InputInput);
+#endif
+

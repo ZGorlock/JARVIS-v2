@@ -1,0 +1,87 @@
+TIME
+fc81b159-37a3-4dfe-ae43-8624880ad0f9
+Contatins basic time functions.
+80
+
+
+
+
+
+
+
+1
+0
+2
+0
+0
+1
+date
+Returns the date.
+string date();
+20
+TIME
+80
+80
+1
+DATE
+100
+1
+0
+0
+2
+TELL ME THE DATE
+100
+1
+0
+0
+3
+WHAT DATE IS IT
+100
+2
+2
+19
+4
+WHAT IS THE DATE
+100
+2
+2
+19
+0
+the date
+0
+2
+time
+Returns the time.
+string time();
+20
+TIME
+80
+80
+1
+TELL ME THE TIME
+100
+1
+0
+0
+2
+TIME
+100
+1
+0
+0
+3
+WHAT IS THE TIME
+100
+2
+2
+19
+4
+WHAT TIME IS IT
+100
+2
+2
+19
+0
+the time
+0
+0

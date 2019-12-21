@@ -1,0 +1,31 @@
+loaded in loadModules (no duplicates)
+variables in module are stored in .module file
+
+
+variable source are stored in source/variable (added/removed with modules)
+variable sources will be included in source/resource/variable file
+no data/variables file, variableList_ filled from modules
+
+must have header and source (int_V.h, int_V.cpp)
+
+
+
+
+input variables
+%VAR% in model
+recieves successful var return 1
+unsuccessful return 0
+spectrum in between
+
+model tester will have to be able to read the number of variables and their type
+variable mapping to functions
+
+each module has the ability to create its own variable types and read them
+bool, int, double, string, char = default vars
+time, date
+
+input object includes variables object
+variables object includes list of module vars files (add or remove when you add or remove module)
+
+check variable (if no return 0)
+What is %INT% plus %INT%?

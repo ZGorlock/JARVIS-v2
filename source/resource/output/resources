@@ -1,0 +1,4 @@
+#include "console.resource"
+#include "log.resource"
+#include "speech.resource"
+#include "speed.resource"

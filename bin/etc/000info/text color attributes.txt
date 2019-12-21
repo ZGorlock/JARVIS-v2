@@ -1,0 +1,37 @@
+FOREGROUND_BLUE		1
+FOREGROUND_GREEN	2
+FOREGROUND_RED		4
+FOREGROUND_INTENSITY	8
+BACKGROUND_BLUE		16
+BACKGROUND_GREEN	32
+BACKGROUND_RED		64
+BACKGROUND_INTENSITY	128
+
+
+Text Color (FGColor_):
+	Black:		0
+	Blue:		1
+	Green:		2
+	Aqua:		3
+	Red:		4
+	Fushia:		5
+	Yellow:		6
+	White:		7
+
+Text Intensity (FGIntensity_):
+	Off		0
+	On		8
+
+Background Color (BGColor_):
+	Black:		0
+	Blue:		16
+	Green:		32
+	Aqua:		48
+	Red:		64
+	Fushia:		80
+	Yellow:		96
+	White:		112
+
+Background Intensity (BGIntensity_):
+	Off		0
+	On		128

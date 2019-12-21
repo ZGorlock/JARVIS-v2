@@ -1,0 +1,31 @@
+
+7-Zip 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+Scanning
+
+Creating archive 1431311448.zip
+
+Compressing  1431311448\contacts
+Compressing  1431311448\data\inputs
+Compressing  1431311448\data\input\ptrs
+Compressing  1431311448\data\modules
+Compressing  1431311448\data\module\ptrs
+Compressing  1431311448\data\outputs
+Compressing  1431311448\data\output\ptrs
+Compressing  1431311448\data\setting\input\keyboard.settings
+Compressing  1431311448\data\setting\input\speech.settings
+Compressing  1431311448\data\setting\module\core.settings
+Compressing  1431311448\data\setting\module\time.settings
+Compressing  1431311448\data\setting\output\console.settings
+Compressing  1431311448\data\setting\output\log.settings
+Compressing  1431311448\data\setting\output\speech.settings
+Compressing  1431311448\data\setting\output\speed.settings
+Compressing  1431311448\data\setting\settings.settings
+Compressing  1431311448\dla
+Compressing  1431311448\id
+Compressing  1431311448\info
+Compressing  1431311448\log.crypt
+Compressing  1431311448\log.log
+Compressing  1431311448\logins
+Compressing  1431311448\pass
+
+Everything is Ok

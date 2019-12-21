@@ -1,0 +1,105 @@
+#defines information for a module
+#no spaces, just inserted for visility
+#no comments
+
+
+TIME					#module's name
+Contatins basic time functions.		#description
+80.0					#priority
+STD,CORE				#comma seperated list of dependency modules
+
+
+
+
+
+
+1					#COMMAND #1
+time					#name of command
+Returns the time.			#description of command
+string time();				#command definition
+20					#command return type
+TIME					#module it is in
+80.0					#priority of command in module
+
+
+1					#TEMPLATE #1
+WHAT TIME IS IT				#match string
+2					#command type
+2					#question type
+19					#question word
+
+2					#TEMPLATE #2
+WHAT IS THE TIME			#match string
+2					#command type
+2					#question type
+19					#question word
+
+3					#TEMPLATE #3
+TIME					#match string
+1					#command type
+0					#question type
+0					#question word
+
+4					#TEMPLATE #4
+TELL ME THE TIME			#match word
+1					#command type
+0					#question type
+0					#question word
+
+0					#TEMPLATE #0 (End of templates)
+
+
+the time				#output
+0.0					#risk
+
+
+
+
+
+
+2					#COMMAND #2
+date					#name of command
+Returns the date.			#description of command
+string date();				#command definition
+20					#command return type
+TIME					#module it is in
+80.0					#priority of command in module
+
+
+1					#TEMPLATE #1
+WHAT IS THE DATE			#match string
+2					#command type
+2					#question type
+19					#question word
+
+2					#TEMPLATE #2
+WHAT DATE IS IT				#match string
+2					#command type
+2					#question type
+19					#question word
+
+3					#TEMPLATE #3
+DATE					#match string
+1					#command type
+0					#question type
+0					#question word
+
+4					#TEMPLATE #4
+TELL ME THE DATE			#match word
+1					#command type
+0					#question type
+0					#question word
+
+0					#TEMPLATE #0 (End of templates)
+
+
+the date				#output
+0.0					#risk
+
+
+
+
+
+
+0					#COMMAND #0 (End of commands)
+#end of module

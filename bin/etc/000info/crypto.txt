@@ -1,0 +1,14 @@
+The user will use a password and a username to log in. The username will be public while the password will remain private. Once the username is entered, the id file is read from the user data directory.
+
+The password is hashed using a PBKDF2 function with HMAC using SHA512. The string that is hashed is <username><id><password>. The <username><id> section takes the place of the salt in traditional password hashing, the <id> is a GUID unique to the user. The number of iterations is random between two numbers selected based on security preferences. This ensures not only that the password is correct but also that the username, id, and password go together and that the id has not been manipulated.
+
+The password hash is stored along with the salt and number of iterations in a file. When the user enters their password the same operation is preformed and the resulting hash is compared to the stored one. If they match the user logs in.
+
+All user files are encrypted using CBC mode AES encryption with the key <password>.
+
+
+
+info, contacts, and logins are encrypted securely with key <password>
+settings.ini and log.log are decrypted at startup and remain decrypted until the user closes the program at which point it is again encrypted.
+Editing the settings.ini file when it is decrypted will have no effect on the settings.
+No sensitive data will be displayed by the log via any official module.

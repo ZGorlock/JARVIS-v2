@@ -1,0 +1,7 @@
+#include "../variable/bol_V.h"
+#include "../variable/chr_V.h"
+#include "../variable/dbl_V.h"
+#include "../variable/flt_V.h"
+#include "../variable/int_V.h"
+#include "../variable/num_V.h"
+#include "../variable/str_V.h"

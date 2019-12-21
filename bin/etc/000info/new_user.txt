@@ -1,0 +1,6 @@
+add line to data/users
+create user directory in data
+populate with clean user files
+hash password and save in data/user/<username>/pass
+encrypt files using password
+free user so it can be loaded

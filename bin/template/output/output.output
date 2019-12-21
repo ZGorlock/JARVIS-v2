@@ -1,0 +1,6 @@
+#ifndef DLA_O_OUTPUT
+#define DLA_O_OUTPUT
+if(isOutput("output", outputList_))
+  outputs_.push_back(new OutputOutput);
+#endif
+

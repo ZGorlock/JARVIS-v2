@@ -1,0 +1,6 @@
+#ifndef DLA_O_LOG
+#define DLA_O_LOG
+if (isOutput("log", outputList_))
+  outputs_.push_back(new LogOutput);
+#endif
+

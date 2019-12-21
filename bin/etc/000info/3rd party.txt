@@ -1,0 +1,9 @@
+Rules for 3rd Party Modules/Inputs/Outputs:
+
+1) No output should display any sensitive data as the log is decrypted blatantly during use.
+2) No access to the user's password or logins will be available in 3rd party modules/inputs/outputs
+3) No infinite loops are allowed.
+4) Modules/Inputs/Outputs must follow the template visible in any official Module/Input/Output and must have required functions.
+5) No saving/editing/deleting of files outside of the user's DLA directory is permitted except where appropriate.
+
+All 3rd party source must be submitted for review. Upon a successful review, its hash will be saved and will be made available to users. If you edit the source, it must be resubmitted, reverified, and rehashed.

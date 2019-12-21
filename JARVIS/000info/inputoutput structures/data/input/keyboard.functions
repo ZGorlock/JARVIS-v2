@@ -1,0 +1,13 @@
+void initInputs()
+{
+  KeyboardInput tmpInput ();
+  inputs_.push_back(tmpInput);
+}
+
+
+
+
+//InputPtrs_["keyboard"] = &KeyboardInput;
+//InputPtrs_["keyboard::keyboard"] = &KeyboardInput::KeyboardInput;
+//InputPtrs_["keyboard::init"] = &KeyboardInput::init;
+//InputPtrs_["keyboard::getInput"] = &KeyboardInput::getInput;
